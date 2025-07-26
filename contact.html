@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BF Global Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="BF Global Services Logo" class="logo">
+                <span>BF Global Services</span>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>Contactez-nous</h1>
+                <p>Nous sommes là pour répondre à toutes vos questions.</p>
+            </div>
+        </section>
+
+        <section class="contact-content animated-section">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <h3>Nos Coordonnées</h3>
+                    <p><strong>Adresse :</strong><br>1234 Rue de la Logistique<br>Montréal, QC H3C 3J7, Canada</p>
+                    <p><strong>Téléphone :</strong><br><a href="tel:+1 (438) 503-2927">+1 (438) 503-2927</a></p>
+                    <p><strong>Email :</strong><br><a href="mailto:contact@bfglobalservices.ca">contact@bfglobalservices.ca</a></p>
+                    <p><strong>Heures d'ouverture :</strong><br>Lundi - Vendredi : 9h00 - 17h00</p>
+                </div>
+                <div class="contact-form-container">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adresse Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Votre Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Envoyer le message</button>
+                        <p id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>BF Global Services</h3>
+                    <p>Votre partenaire de confiance pour des solutions logistiques complètes à l'échelle mondiale.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                       <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contactez-nous</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Rue Logistique, Montréal, QC, Canada</li>
+                        <li><i class="fas fa-phone"></i>+1 (438) 503-2927</li>
+                        <li><i class="fas fa-envelope"></i> info@logitrans.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                   <h3>À propos de nous</h3>
+                    <p>BF Global Services est dédiée à fournir des solutions logistiques innovantes et personnalisées pour répondre aux besoins de nos clients.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BF Global Services Tous drits réservés.</p>
+                <div class="footer-links">
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions d'utilisation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="back-to-top" title="Retour en haut" aria-label="Retour en haut">&uarr;</a>
+    <script src="script.js"></script>
+</body>
+</html>
